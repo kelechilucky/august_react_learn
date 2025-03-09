@@ -4,8 +4,17 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class', // Add this line
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        inter: ["Inter", "sans-serif"]
+      },
+      colors:{
+        main_text:"#334155",
+        main_heading: "#0F172A"
+      }
+    },
   },
   plugins: [],
 }
