@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useThemeContext } from "../context/ThemeContext";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import ByWay from "/byway_full_logo.svg";
 import { CiSearch } from "react-icons/ci";
 import { AlignJustify, MoonIcon, Sun, X } from "lucide-react";
@@ -19,7 +19,7 @@ const Header = () => {
   };
 
   const goToSignup = () => {
-    window.location.href = "/signup"; // http://localhost:5173/signup
+    window.location.href = "/Signup"; // http://localhost:5173/signup
   };
   const goToSignin = () => {
     window.location.href = "/login";
