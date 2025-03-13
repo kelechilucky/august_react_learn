@@ -17,7 +17,7 @@ import CourseDetailsPage from "./pages/CourseDetailsPage";
 import ShoppingCartPage from "./pages/ShoppingCartPage";
 import MentorsPage from "./pages/MentorsPage";
 import ThemeProvider from "./context/ThemeContext";
-import { JsonPlaceholderProvider } from "../src/context/JsonPlaceholderContext";
+import { JsonPlaceholderProvider } from "./context/JsonPlaceholderContext";
 import { ModalProvider } from "./context/ModalContext";
 import { AuthProvider } from "./context/AuthContext";
 import Dashboardpage from "./pages/Dashboard";
