@@ -5,7 +5,7 @@ import ByWay from "/byway_full_logo.svg";
 import { CiSearch } from "react-icons/ci";
 import { AlignJustify, MoonIcon, Sun, X } from "lucide-react";
 import { IoCartOutline } from "react-icons/io5";
-import Button from "./reuseable-components/Button";
+import Button from "../components/reuseable-components/Button";
 
 const Header = () => {
   // UseTheme Context
